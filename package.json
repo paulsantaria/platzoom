@@ -1,0 +1,33 @@
+{
+  "name": "platzom",
+  "version": "0.1.0",
+  "description": "traductor de idioma platzom",
+  "main": "dist/src/platzom.js",
+  "scripts": {
+    "build": "babel src/platzom.js -d dist",
+    "test" : "mocha"  
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paulsantaria/platzoom.git"
+  },
+  "keywords": [
+    "platzi",
+    "platzom",
+    "fundamentos",
+    "javascript",
+    "js"
+  ],
+  "author": "paul santaria <psantaria@hotmail.com> (https://twitter.com/paulsantaria)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/paulsantaria/platzoom/issues"
+  },
+  "homepage": "https://github.com/paulsantaria/platzoom#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.0",
+    "chai": "^4.1.1",
+    "mocha": "^3.5.0"
+  }
+}
