@@ -1,11 +1,11 @@
 {
-  "name": "platzom",
+  "name": "platzomPaul",
   "version": "0.1.0",
   "description": "traductor de idioma platzom",
   "main": "dist/src/platzom.js",
   "scripts": {
     "build": "babel src/platzom.js -d dist",
-    "test" : "mocha"  
+    "test" : "mocha"
   },
   "repository": {
     "type": "git",
